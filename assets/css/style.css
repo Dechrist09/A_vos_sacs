@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  aspect-ratio: 1/1.3;
+  object-fit: cover;
+}
+
+.navbar {
+  background:  linear-gradient(to right, red, pink, violet) !important;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar:hover {
+  background-color: white;
+  transform: scale(1.1);
+        transition: transform .2s;
+  /* transition: 2s; */
+}
+
+
+h1 {
+  font-family: tangerine;
+}
+
+.navbar-toggler{
+  display: none;
+}
+h3 {
+  font-family: roboto;
+  /* text-transform: uppercase; */
+  font-weight: 200;
+}
+
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
+}
+main{
+  margin-top: 10em;
+}
+@keyframes marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.scrolling-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scroll-left 10s linear infinite;
+}
+
+.nav-top p {
+  margin: auto 0;
+}
+
+
+
+.navigation-rouge:hover {
+  background-color: brown;
+  transition: 2s;
+}
+
+ul {
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: rgb(234, 194, 163) !important;
+  z-index: 10000;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+  color: black;
+}
+
+
+.logo {
+  margin-top: 10px;
+}
+.form-control {
+  /* width: 20%; */
+  border-radius: 2px;
+}
+.bi {
+  font-size: 2rem;
+  color: #000;
+  /* color: grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+.brown {
+  background-color: brown;
+  border-radius: 100%;
+}
+/* ------bdébut de la 2èm setion------------------------- */
+.rose {
+  background-color: rosybrown;
+  border-radius: 100%;
+}
+.btn {
+  color: #fff;
+  margin: 10px;
+}
+.cadre1 {
+  /* height: 60px */
+  margin: auto;
+  text-align: center;
+  gap: 30px !important;
+  
+
+}
+.car1 {
+  border-radius: 100px;
+  text-align: center;
+}
+.cadre2 {
+  margin: auto;
+  /* margin: 8px; */
+  justify-content: center;
+  align-items: center;
+  /* color: brown; */
+  /* height: 20vh; */
+  /* background-color: brown; */
+  background: linear-gradient(to right, red, pink, violet);
+  /* background-color: violet; */
+  border-radius: 5%;
+  /* padding: 20px; */
+}
+.DEUX {
+  /* background-color: brown; */
+  color: black;
+  margin: auto;
+  /* height: 30vh; */
+}
+/* .col-6{
+    .img-fluid:hover {
+        transform: scale(1.1);
+        transition: transform .2s;
+      } */
+/*création ranger  */
+.col-4 {
+  width: 31.333333%;
+  /* margin: 1%; */
+}
+.col-6 {
+  width: 47%;
+  margin: 2%;
+  border-radius: 90%;
+}
+
+.btn:hover {
+  /* color: rgb(221, 156, 82); */
+  background-color: rgb(221, 156, 82);
+  transition: 2s;
+}
+.row {
+  display: flex;
+}
+
+.cadre4 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: solid 3 red;
+  width: 70%;
+}
+.icon {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.icon1 {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+.cadre6 {
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 8px;
+}
+
+.violet {
+  /* border-radius: 20%; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  text-align: center;
+
+  margin-top: 5px;
+  border-radius: 10%;
+  color: white;
+  padding: 20px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.news {
+  overflow: hidden;
+  background-color: violet;
+  border-radius: 7%;
+}
+
+.blanc {
+  color: white;
+}
+
+form {
+  color: white;
+  border-radius: 20px;
+}
+.A {
+  border-radius: 10px;
+}
+/* label{
+    border-radius: 20px;
+} */
+
+.grey {
+  background-color: gray;
+}
+.card {
+  margin: 20px;
+}
+/* ------------------------------page promo----------------------------- */
+.figur {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.pos {
+  position: relative;
+}
+.A {
+  text-align: center;
+}
+
+.im {
+  background-color: red;
+  /* text-align: left; */
+  color: white;
+  border: white;
+  position: absolute;
+  top: 0%;
+  left: 7%;
+  /* background-color: white; */
+  padding: 15px 10px;
+  /* border: solid; */
+}
+
+.absolut{
+  position: relative; 
+}
+.im2 {
+  background-color: red;
+  /* text-align: left; */
+  color: white;
+  border: white;
+  position: absolute;
+  top: 0%;
+  left: 7%;
+  /* background-color: white; */
+  padding: 15px 10px;
+  /* border: solid; */
+}
+
+.greyi {
+  background-color: rosybrown;
+  /* border-radius: 10%; */
+}
+/* -------------------page E-shop---------------------------- */
+select {
+  background-color: #fff;
+  text-align: left !important;
+}
+/* -----------------------page prrofil----------------------------- */
+.Profil{
+  /* display: flex;
+  justify-content: center; */
+  
+  margin: 10px;
+  padding: 20px;
+}
+.profil1{
+  border-radius: 50% !important;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+/* --------------------Partie Footer------------------------- */
+
+footer {
+  /* display: flex;
+    justify-content: center; */
+  
+  background:  linear-gradient(to right, red, pink, violet) !important;
+  color: black;
+}
+
+
+.foot {
+  /* color: #fff;
+    margin: 15px;  */
+  padding: 30px;
+}
+.foot-reseau {
+  display: flex;
+  justify-content: center;
+}
+.social-icons a {
+  background-color: black;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+}
+
+/* .social-icons a i {
+  font-size: 24px; 
+} */
+
+/* ---------------media quirie---------------------- */
+/* Style pour les ordinateurs de bureau */
+@media (min-width: 1024px) {
+  .article {
+    width: 25%;
+    float: left;
+  }
+}
+
+/* Style pour les tablettes */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .article {
+    width: 50%;
+    float: left;
+  }
+}
+
+/* Style pour les téléphones portables */
+@media (max-width: 767px) {
+  .article {
+    width: 100%;
+  }
+}
+
